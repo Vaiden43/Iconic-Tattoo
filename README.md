@@ -1,5 +1,5 @@
-## a run down of what I may want to add
+## Reminder to firebase launching as the site is updated once every two years since january 2019
 
-- Admin page (this page would be used for owner of site to sign in and have crud functionality events on events page)
-
-- "Swag" page for when the owner of the site starts selling merch (page skeleton created for when merch starts being sold)
+- npm run build
+- firebase init (no to every question, use build insted of public. Do this just once)
+- firebase deploy
