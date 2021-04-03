@@ -28,7 +28,7 @@ class Components extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Hollis Cantrell"
+          brand=""
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -37,11 +37,19 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("../assets/img/shop-front.jpg")}>
+        <Parallax image={require("../assets/img/shop-front.png")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
                   <br />
                   <br />
                   <br />
