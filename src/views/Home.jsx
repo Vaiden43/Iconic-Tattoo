@@ -91,9 +91,7 @@ class Components extends React.Component {
           <GridContainer>
             <GridItem md={12} className={classes.textCenter}>
               {" "}
-              An artist of considerable range, I am the proud father of Twin 13
-              year olds who are learning to tattoo and I am married to a
-              beautiful wife, Krystal Cantrell. I am a
+              An artist of considerable range, I am a
               2 time Guinness world record holder and an Award-winning tattoo
               artist. Life's a garden, dig it. <br />
               {/* } */}
