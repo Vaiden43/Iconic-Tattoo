@@ -74,9 +74,8 @@ Artists will begin working on your personalized tattoo artwork once an appointme
             </GridItem>
             <GridItem md={8} className={classes.textCenter}>
                 <h4>
-                In order to ensure premium tattoo quality; please adhere to the following instructions, using only the following products:
-Dial Liquid Soap and Aquaphor.
-During the first three days of healing; wash the tattooed area every hour for 10 minutes with a small amount of Dial Liquid Soap and water. After you have completely washed and dried the tattoo; apply a plastic wrap barrier over the tattooed area. It is extremely important during these next 3 days you change the plastic wrap and clean the area as recommended.
+                For all your after care needs refer to your artist as every artist is different and how they will tell you to take care of their product after it's finished is highly urged for you to do what your artist recommends.
+                 If you have any questions or have forgotten please contact your artist. 
                 </h4>
             </GridItem>
           </GridContainer>
