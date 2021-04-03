@@ -48,7 +48,6 @@ class Schedule extends React.Component {
                 <br />
                 <br />
                 <br />
-                <a href="https://calendar.google.com/calendar/embed?src=hollis6942%40gmail.com&ctz=America%2FPhoenix"  target="_blank"> Click here to check my calander</a>
                 <br /><br />
                 <h6>
                   To Schedule contact us at <br /><br /> (602) 487-5078 <br /><br /> or<br /> <br /> hollis@iconictattoo.com{" "}
