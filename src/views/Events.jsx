@@ -56,7 +56,7 @@ class Tattoo extends React.Component {
               <GridItem xs={1} sm={1} md={1}>
               </GridItem>
               <GridItem xs={12} sm={4} md={4}>
-                { <h4><br/><br/><br/><br/>Nothing scedualed at this time. <br/> Please Check back later.</h4>
+                { <h4><br/><br/><br/><br/>Nothing scheduled at this time. <br/> Please Check back later.</h4>
                 // Example of how I have done it
                 /* <h4>
              <a href="https://www.goldenstatetattooexpo.com/"  target="_blank">Golden State Tattoo Expo 2020 </a> <br />
