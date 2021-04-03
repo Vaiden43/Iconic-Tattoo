@@ -27,7 +27,7 @@ class Events extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("../assets/img/ShopInterior.jpg")} />
+        <Parallax small filter image={require("../assets/img/2.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
           <GridContainer>
