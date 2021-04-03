@@ -84,10 +84,6 @@ Artists will begin working on your personalized tattoo artwork once an appointme
           <GridItem md={3} className={classes.textCenter}>
             </GridItem>
             <GridItem md={8} className={classes.textCenter}>
-            <strong>Plase be aware the tatoo is an open wound and should be treated as such.</strong> <br />
-                <h4>
-                After the first 3 days, continue to wash the tattooed area every hour for the next 2 weeks with a mixture of Liquid Dial soap and water. After the tattooed area is washed and dried, apply a thin coat of Aquaphor to the entire area making sure to not over apply as the tattoo needs to “breathe”. Monitor the tattoo between cleanings. If the tattoo becomes dry, rewash and apply a thin layer of Aquaphor to the entire area as needed.
-                </h4>
             </GridItem>
           </GridContainer>
 

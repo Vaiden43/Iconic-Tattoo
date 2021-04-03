@@ -11,7 +11,7 @@ import GridItem from "../components/Grid/GridItem.jsx";
 import HeaderLinks from "../components/Header/HeaderLinks.jsx";
 import Parallax from "../components/Parallax/Parallax.jsx";
 import profilePageStyle from "../assets/jss/material-kit-react/views/profilePage.jsx";
-import tattooexpo from "../assets/img/Tattoo/GS.jpeg";
+import tattooexpo from "../assets/img/empirestate.webp";
 
 
 class Tattoo extends React.Component {
@@ -51,21 +51,22 @@ class Tattoo extends React.Component {
               <GridItem xs={0} sm={1} md={1}>
               </GridItem>
               <GridItem xs={12} sm={4} md={4}>
-              {/* <img src={tattooexpo} alt="..." width="410" /> */}
+                <br/>
+              { <img src={tattooexpo} alt="..." width="410" /> }
               </GridItem>
               <GridItem xs={1} sm={1} md={1}>
               </GridItem>
               <GridItem xs={12} sm={4} md={4}>
-                { <h4><br/><br/><br/><br/>Nothing scheduled at this time. <br/> Please Check back later.</h4>
+                {
                 // Example of how I have done it
-                /* <h4>
-             <a href="https://www.goldenstatetattooexpo.com/"  target="_blank">Golden State Tattoo Expo 2020 </a> <br />
-                January 24th, 25th, and 26th
-                Pasadena Convention Center <br/>
-                300 East Green Street,<br/>
-                Pasadena, CA 91101<br/><br/>
-                $30 per day or $60 for a weekend pass!
-</h4> */}
+                 <h4>
+             <a href="https://www.empirestatetattooexpo.com/"  target="_blank">Empire State Tattoo Expo 2021 </a> <br />
+             July 24, 25 & 26th  2020 <br/>
+             ​at<br/>
+​​             The New York Midtown Hilton <br/>
+             NYC Manhattan<br/>
+             Tickets Are Estimated to Be $35 for the Day, $70 for the Weekend.
+</h4>}
 <br /><br /><br /> 
               </GridItem>
               </GridContainer>
