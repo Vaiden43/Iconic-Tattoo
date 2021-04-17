@@ -130,7 +130,7 @@ class Components extends React.Component {
               {" "}
               A black and grey specialist, Matt is a
               master when it comes to those beautiful grey black tones.
-              Stay humble hustle hard <br />
+              Stay humble hustle hard!<br />
               {/* } */}
             </GridItem>
           </GridContainer>
