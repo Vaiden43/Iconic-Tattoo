@@ -19,8 +19,13 @@ function HeaderLinks({ ...props }) {
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/Art">
-          <Button variant="dark">Art</Button>
+        <Link to="/HollisCantrell">
+          <Button variant="dark">Hollis Cantrell</Button>
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link to="/MattFoster">
+          <Button variant="dark">Matt Foster</Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>

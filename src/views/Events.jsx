@@ -25,7 +25,6 @@ class Tattoo extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Hollis Cantrell"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -52,7 +51,7 @@ class Tattoo extends React.Component {
               </GridItem>
               <GridItem xs={12} sm={4} md={4}>
                 <br/>
-              { <img src={tattooexpo} alt="..." width="410" /> }
+              { <img src={tattooexpo} alt="..." width="300" /> }
               </GridItem>
               <GridItem xs={1} sm={1} md={1}>
               </GridItem>
@@ -60,10 +59,10 @@ class Tattoo extends React.Component {
                 {
                 // Example of how I have done it
                  <h4>
-             <a href="https://www.empirestatetattooexpo.com/"  target="_blank">Empire State Tattoo Expo 2021 </a> <br />
-             July 24, 25 & 26th  2020 <br/>
+             <a href="https://www.empirestatetattooexpo.com/"  target="_blank">Empire State Tattoo Expo 2021</a><br />
+             July 24, 25 & 26th  2020<br/>
              ​at<br/>
-​​             The New York Midtown Hilton <br/>
+​​             The New York Midtown Hilton<br/>
              NYC Manhattan<br/>
              Tickets Are Estimated to Be $35 for the Day, $70 for the Weekend.
 </h4>}

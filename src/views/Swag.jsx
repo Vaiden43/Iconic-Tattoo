@@ -19,7 +19,6 @@ class Swag extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Hollis Cantrell"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{

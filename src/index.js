@@ -8,7 +8,8 @@ import "./assets/scss/material-kit-react.scss?v=1.7.0";
 
 // pages for this product
 import Home from "./views/Home";
-import Art from "./views/Art";
+import Hollis from "./views/HollisCantrell";
+import Matt from "./views/MattFoster";
 import Events from "./views/Events";
 import Schedule from "./views/Schedule";
 import FAQ from "./views/FAQ";
@@ -23,7 +24,8 @@ ReactDOM.render(
      <Route path="/FAQ" component={FAQ} />
       <Route path="/Schedule" component={Schedule} />
       <Route path="/Events" component={Events} />
-      <Route path="/Art" component={Art} />
+      <Route path="/HollisCantrell" component={Hollis} />
+      <Route path="/MattFoster" component={Matt} />
       <Route path="/" component={Home} />
     </Switch>
   </Router>,

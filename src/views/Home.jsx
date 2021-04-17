@@ -9,12 +9,15 @@ import GridItem from "../components/Grid/GridItem.jsx";
 import Parallax from "../components/Parallax/Parallax.jsx";
 import HeaderLinks from "../components/Header/HeaderLinks.jsx";
 import componentsStyle from "../assets/jss/material-kit-react/views/components.jsx";
+import { Link } from "react-router-dom";
 
-import profile from "../assets/img/FamilyMembers/hollis.jpg";
 import Award1 from "../assets/img/Tattoo/Award1.jpg";
 import Award2 from "../assets/img/Tattoo/Award2.jpg";
 import Award3 from "../assets/img/Tattoo/Award3.jpg";
 import Award4 from "../assets/img/Tattoo/Award4.jpg";
+
+import Hollis from "../assets/img/FamilyMembers/hollis.jpg";
+import Matt from "../assets/img/Familymembers/matt.jpg";
 
 class Components extends React.Component {
   render() {
@@ -37,7 +40,7 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("../assets/img/shop-front.png")}>
+        <Parallax image={require("../assets/img/ShopInterior.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
@@ -63,7 +66,7 @@ class Components extends React.Component {
                   <br />
                   <br />
                   <br />
-                  <h1 className={classes.title}>Hollis Cantrell</h1>
+                  <h1 className={classes.title}>Iconic Tattoo</h1>
                   {/* <h3 className={classes.subtitle}>
                     Glendale Arizona's Premiere Tattoo Artist <br />
                     of Iconic Tattoo
@@ -97,11 +100,37 @@ class Components extends React.Component {
           </GridContainer>
           <br />
           <GridContainer>
-            <GridItem md={12} className={classes.textCenter}>
+          <GridItem md={2} className={classes.textCenter}>
+            </GridItem>
+            <Link to="/MattFoster">
+            <GridItem md={4} className={classes.textCenter}>
+            <img src={Hollis} alt="..." className={imageClasses} width="270" />
+            </GridItem>
+            </Link>
+            <br/><br/>
+            <GridItem md={4} className={classes.textCenter}>
               {" "}
-              An artist of considerable range, I am a
+              An artist of considerable range, Hollis is a
               2 time Guinness world record holder and an Award-winning tattoo
-              artist. Life's a garden, dig it. <br />
+              artist. Life's a garden, dig it.
+              {/* } */}
+            </GridItem>
+            </GridContainer>
+            <br/><br/><br/>
+            <GridContainer>
+            <GridItem md={2} className={classes.textCenter}>
+            </GridItem>
+            <Link to="/MattFoster">
+            <GridItem md={4} className={classes.textCenter}>
+            <img src={Matt} alt="..." className={imageClasses} width="270" />
+            </GridItem>
+            </Link>
+            <br/><br/>
+            <GridItem md={4} className={classes.textCenter}>
+              {" "}
+              A black and grey specialist, Matt is a
+              master when it comes to those beautiful grey black tones.
+              Stay humble hustle hard <br />
               {/* } */}
             </GridItem>
           </GridContainer>

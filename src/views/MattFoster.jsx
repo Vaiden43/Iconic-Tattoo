@@ -12,19 +12,12 @@ import HeaderLinks from "../components/Header/HeaderLinks.jsx";
 import Parallax from "../components/Parallax/Parallax.jsx";
 import profilePageStyle from "../assets/jss/material-kit-react/views/profilePage.jsx";
 
-import bebop from "../assets/img/Tattoo/bebop.jpg";
-import crow from "../assets/img/Tattoo/crow.jpg";
-import deadpool from "../assets/img/Tattoo/deadpool.jpg";
-import Rick from "../assets/img/Tattoo/Rick.jpg";
-import joker from "../assets/img/Tattoo/joker.jpg";
-import odin from "../assets/img/Tattoo/odin.jpg";
-import Back from "../assets/img/Tattoo/Back.jpg";
-import Vader from "../assets/img/Tattoo/Vader.jpg";
-import Maul from "../assets/img/Tattoo/Maul.jpg";
-import Iron from "../assets/img/Tattoo/Iron.jpg";
-import Abe from "../assets/img/Tattoo/Abe.jpg";
-import Flower from "../assets/img/Tattoo/Flower.jpg";
-
+import ar1 from "../assets/img/Tattoo/ar1.jpg";
+import ar2 from "../assets/img/Tattoo/ar2.jpg";
+import ar3 from "../assets/img/Tattoo/ar3.jpg";
+import ar4 from "../assets/img/Tattoo/ar4.jpg";
+import ar5 from "../assets/img/Tattoo/ar5.jpg";
+import ar6 from "../assets/img/Tattoo/ar6.jpg";
 
 class Tattoo extends React.Component {
   render() {
@@ -38,7 +31,6 @@ class Tattoo extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Hollis Cantrell"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -62,40 +54,22 @@ class Tattoo extends React.Component {
               </div>
               <GridContainer justify="center">
               <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={Back} alt="..." className={imageClasses} />
+                <img src={ar1} alt="..." className={imageClasses} />
                 </GridItem>
                 <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={crow} alt="..." className={imageClasses} />
+                <img src={ar2} alt="..." className={imageClasses} />
                 </GridItem>
                 <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={Iron} alt="..." className={imageClasses} />
+                <img src={ar3} alt="..." className={imageClasses} />
                 </GridItem>
                 <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={bebop} alt="..." className={imageClasses} />
+                <img src={ar4} alt="..." className={imageClasses} />
                 </GridItem>
                 <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={Maul} alt="..." className={imageClasses} />
+                <img src={ar5} alt="..." className={imageClasses} />
                 </GridItem>
                 <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={Vader} alt="..." className={imageClasses} />
-                </GridItem>
-                <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={joker} alt="..." className={imageClasses} />
-                </GridItem>
-                <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={deadpool} alt="..." className={imageClasses} />
-                </GridItem>
-                <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={Rick} alt="..." className={imageClasses} />
-                </GridItem>
-                <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={Abe} alt="..." className={imageClasses} />
-                </GridItem>
-                <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={Flower} alt="..." className={imageClasses} />
-                </GridItem>
-                <GridItem xs={6} sm={6} md={6} className={classes.navWrapper}>
-                <img src={odin} alt="..." className={imageClasses} />
+                <img src={ar6} alt="..." className={imageClasses} />
                 </GridItem>
               </GridContainer>
             </div>
